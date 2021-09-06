@@ -292,7 +292,7 @@ input:focus {
 
 .x1 {
     background-color: var(--black);
-    height: 3950px;
+    height: 2976px;
     mix-blend-mode: normal;
     overflow: hidden;
     overflow-x: hidden;
@@ -300,15 +300,15 @@ input:focus {
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .x1 {
-        height: 4150px;
+        height: 1845pxpx;
     }
 }
 
 @media only screen and (max-width: 990px) {
     .x1 {
-        height: 7590px;
+        height: 2151px;
     }
 }
 
@@ -4555,7 +4555,7 @@ input:focus {
 
 .x1 .group-7055-eV26Zv {
     background-color: transparent;
-    height: 409px;
+    height: 100%;
     width: 100%;
 }
 
@@ -4785,17 +4785,6 @@ input:focus {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .x1 .group-7050-oDPyAE {
-        background-color: transparent;
-        height: 28px;
-        left: 0px;
-        position: relative;
-        top: -121px !important;
-        width: 177px;
-    }
-}
-
 @media only screen and (max-width: 700px) {
     .x1 .group-7050-oDPyAE {
         background-color: transparent;
@@ -4803,6 +4792,20 @@ input:focus {
         left: 0px;
         position: relative;
         top: -110px;
+        width: 177px;
+    }
+    .vector-hWjdse, .vector-Qmxp0G, .vector-9WT6mW {
+        width: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .x1 .group-7050-oDPyAE {
+        background-color: transparent;
+        height: 28px;
+        left: 3px;
+        position: relative;
+        top: -130px;
         width: 177px;
     }
     .vector-hWjdse, .vector-Qmxp0G, .vector-9WT6mW {
@@ -4980,7 +4983,6 @@ input:focus {
 
 .x1 .group-7040-wLpUl7 {
     background-color: transparent;
-    height: 135px;
     left: 38px;
     position: absolute;
     top: 0px;
@@ -5038,7 +5040,7 @@ input:focus {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .x1 .mask-group-FyAVc5 {
         background-color: transparent;
         height: 25px;
@@ -5046,6 +5048,20 @@ input:focus {
         margin-left: -12.5px;
         position: absolute;
         top: 122px;
+        width: 25px;
+        border: 3px solid blue;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .x1 .mask-group-FyAVc5 {
+        background-color: transparent;
+        height: 25px;
+        left: 50%;
+        margin-left: -12.5px;
+        position: absolute;
+        top: 134px;
         width: 25px;
         border: 3px solid blue;
         border-radius: 50%;
@@ -7414,4 +7430,20 @@ input:focus {
     position: absolute;
     top: 4px;
     width: 80px;
+}
+
+@media only screen and (max-width: 550px) {
+    .up-btn-text {
+        height: 90% !important;
+    }
+}
+
+.bottom-btn-text {
+    height: 80%;
+}
+
+@media only screen and (max-width: 650px) {
+    .bottom-btn-text {
+        height: 100%;
+    }
 }

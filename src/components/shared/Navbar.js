@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <a class="navbar-brand" href="#">
         <img
-          style={{ height: "60px" }}
+          style={{ height: "5vw" }}
           alt=""
           src="../../images/logo.png"
         ></img>
@@ -16,27 +16,27 @@ const Navbar = () => {
     <div class="navbar ml-auto" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <a style={{fontSize:"1.3vw"}} class="nav-link" href="#">
               About Us
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a style={{fontSize:"1.3vw"}} class="nav-link" href="#">
               Roadmap
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a style={{fontSize:"1.3vw"}} class="nav-link" href="#">
               How to Buy
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a style={{fontSize:"1.3vw"}} class="nav-link" href="#">
               FAQ
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a style={{fontSize:"1.3vw"}} class="nav-link" href="#">
               Contact
             </a>
           </li>

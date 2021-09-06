@@ -1,0 +1,81 @@
+.page-container {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent;
+    color: white;
+}
+
+.page-container h1 {
+    font-size: 3vw;
+}
+
+.page-container p {
+    font-size: 1.5vw;
+}
+
+.page-container .my-btn {
+    padding: 14px 20px;
+    font-size: 1.5vw;
+    border: 3px solid #99A5FF;
+    border-radius: 10px;
+    background-color: #606BBC;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.page-container .banner-cat {
+    width: 38vw;
+}
+
+.page-container h2 {
+    font-size: 2.5vw;
+}
+
+.page-container .arrow-container {
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid white;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-container img {
+    width: 1vw;
+}
+
+.page-container .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.page-container .image-container img {
+    width: 30vw;
+}
+
+.page-container .token-section-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5vw 2vw;
+}
+
+.page-container .team-card {
+    padding: 3vw 2vw;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.page-container .roadmap-section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
