@@ -318,8 +318,20 @@ input:focus {
     left: 0;
     mix-blend-mode: normal;
     position: absolute;
-    top: 343px;
+    top: 190px;
     width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .vector-7aGJld {
+        background-color: transparent;
+        height: 506px;
+        left: 0;
+        mix-blend-mode: normal;
+        position: absolute;
+        top: -28px;
+        width: 100%;
+    }
 }
 
 .x1 .background-7aGJld {
@@ -3832,7 +3844,7 @@ input:focus {
 
 .x1 .group-7073-oHtLxL {
     background-color: transparent;
-    height: 369px;
+    height: 100%;
     left: 0px;
     position: relative;
     top: 0px;
@@ -3856,6 +3868,25 @@ input:focus {
     width: 100%;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .meet-dogemoon-w-community-token-BIU1Ih {
+        background-color: transparent;
+        color: var(--white);
+        font-family: var(--font-family-space_grotesk);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: 22.5px;
+        mix-blend-mode: normal;
+        text-align: left;
+        margin-bottom: 3px;
+        width: 100%;
+    }
+}
+
 .x1 .just-hold-dogem-burn-liquidity-BIU1Ih {
     background-color: transparent;
     color: var(--wisteria);
@@ -3871,6 +3902,25 @@ input:focus {
     text-align: left;
     width: 100%px;
     margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .just-hold-dogem-burn-liquidity-BIU1Ih {
+        background-color: transparent;
+        color: var(--wisteria);
+        font-family: var(--font-family-space_grotesk);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: 15.1px;
+        mix-blend-mode: normal;
+        text-align: left;
+        width: 100%px;
+        margin-bottom: 2px;
+    }
 }
 
 .x1 .group-3-BIU1Ih {
@@ -3891,6 +3941,18 @@ input:focus {
     width: 453px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .rectangle-1-xtv24O {
+        background-color: transparent;
+        height: 187px;
+        left: -41px;
+        mix-blend-mode: normal;
+        position: absolute;
+        top: -64px;
+        width: 159px;
+    }
+}
+
 .x1 .buy-now-xtv24O {
     background-color: transparent;
     color: var(--white);
@@ -3907,6 +3969,26 @@ input:focus {
     text-align: center;
     top: 23px;
     width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .buy-now-xtv24O {
+        background-color: transparent;
+        color: var(--white);
+        font-family: var(--font-family-hk_grotesk-extrabold);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        height: auto;
+        left: 19px;
+        letter-spacing: 0px;
+        line-height: normal;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: center;
+        top: 8px;
+        width: auto;
+    }
 }
 
 .x1 .group-7066-7aGJld {
@@ -3940,12 +4022,6 @@ input:focus {
 
 .x1 .token-section {
     height: 450px;
-}
-
-@media only screen and (max-width: 990px) {
-    .x1 .token-section {
-        height: 920px;
-    }
 }
 
 .x1 .token-card {
@@ -4113,6 +4189,38 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .tokens-burned-orKzHF {
+        background-color: transparent;
+        height: auto;
+        left: -12px;
+        letter-spacing: 0px;
+        line-height: normal;
+        mix-blend-mode: normal;
+        font-size: 14px;
+        position: absolute;
+        text-align: center;
+        top: 140px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .tokens-burned-orKzHF {
+        background-color: transparent;
+        height: auto;
+        left: -12px;
+        letter-spacing: 0px;
+        line-height: normal;
+        mix-blend-mode: normal;
+        font-size: 11px;
+        position: absolute;
+        text-align: center;
+        top: 140px;
+        width: auto;
+    }
+}
+
 .x1 .x2561961-orKzHF {
     background-color: transparent;
     height: auto;
@@ -4126,6 +4234,38 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .x2561961-orKzHF {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        mix-blend-mode: normal;
+        position: absolute;
+        font-size: 16px;
+        text-align: center;
+        top: 108px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .x2561961-orKzHF {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: normal;
+        mix-blend-mode: normal;
+        position: absolute;
+        font-size: 14px;
+        text-align: center;
+        top: 108px;
+        width: auto;
+    }
+}
+
 .x1 .group-orKzHF {
     background-color: transparent;
     height: 61px;
@@ -4133,6 +4273,17 @@ input:focus {
     position: absolute;
     top: 0px;
     width: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .group-orKzHF {
+        background-color: transparent;
+        height: 61px;
+        left: 4px;
+        position: absolute;
+        top: 25px;
+        width: 70px;
+    }
 }
 
 .x1 .isolation-mode-DhJt8x {
@@ -4378,6 +4529,24 @@ input:focus {
     width: 100%;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .our-team-yTQ1Hc {
+        margin-top: 50px;
+        background-color: transparent;
+        color: var(--white);
+        font-family: var(--font-family-space_grotesk);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0px;
+        line-height: normal;
+        mix-blend-mode: normal;
+        text-align: center;
+        top: 0px;
+        width: 100%;
+    }
+}
+
 .x1 .group-7059-yTQ1Hc {
     background-color: transparent;
     width: 100%;
@@ -4496,6 +4665,40 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .get-access-to-your-d-G3dsNp {
+        background-color: transparent;
+        height: auto;
+        left: 49px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 37.6px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: center;
+        top: 0px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .get-access-to-your-d-G3dsNp {
+        background-color: transparent;
+        height: auto;
+        left: 57px;
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 37.6px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: center;
+        top: -6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
 .x1 .with-lots-of-unique-G3dsNp {
     background-color: transparent;
     height: auto;
@@ -4508,6 +4711,40 @@ input:focus {
     top: 52px;
     white-space: nowrap;
     width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .with-lots-of-unique-G3dsNp {
+        background-color: transparent;
+        height: auto;
+        left: 21px;
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 25.4px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: center;
+        top: 27px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .with-lots-of-unique-G3dsNp {
+        background-color: transparent;
+        height: auto;
+        left: 39px;
+        font-size: 8px;
+        letter-spacing: 0px;
+        line-height: 25.4px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: center;
+        top: 16px;
+        white-space: nowrap;
+        width: auto;
+    }
 }
 
 .x1 .vector-6-sIaZdn {
@@ -4537,6 +4774,42 @@ input:focus {
     width: 177px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .group-7050-oDPyAE {
+        background-color: transparent;
+        height: 28px;
+        left: 0px;
+        position: relative;
+        top: -97px;
+        width: 177px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .group-7050-oDPyAE {
+        background-color: transparent;
+        height: 28px;
+        left: 0px;
+        position: relative;
+        top: -121px !important;
+        width: 177px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .x1 .group-7050-oDPyAE {
+        background-color: transparent;
+        height: 28px;
+        left: 0px;
+        position: relative;
+        top: -110px;
+        width: 177px;
+    }
+    .vector-hWjdse, .vector-Qmxp0G, .vector-9WT6mW {
+        width: 12px !important;
+    }
+}
+
 .x1 .frame-Yxisxi {
     background-color: transparent;
     height: 28px;
@@ -4546,6 +4819,45 @@ input:focus {
     position: absolute;
     top: 0px;
     width: 28px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .frame-Yxisxi {
+        background-color: transparent;
+        height: 28px;
+        left: 115px;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        width: 28px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .x1 .frame-Yxisxi {
+        background-color: transparent;
+        height: 28px;
+        left: 106px;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        width: 28px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .x1 .frame-Yxisxi {
+        background-color: transparent;
+        height: 28px;
+        left: 95px;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        width: 28px;
+    }
 }
 
 .x1 .vector-gLvPEP {
@@ -4608,6 +4920,45 @@ input:focus {
     width: 28px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .frame-rVQVEp {
+        background-color: transparent;
+        height: 28px;
+        left: 31px;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        width: 28px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .x1 .frame-rVQVEp {
+        background-color: transparent;
+        height: 28px;
+        left: 42px;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        width: 28px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .frame-rVQVEp {
+        background-color: transparent;
+        height: 28px;
+        left: 54px;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        width: 28px;
+    }
+}
+
 .x1 .vector-uVYsxN {
     background-color: transparent;
     height: 1px;
@@ -4645,6 +4996,62 @@ input:focus {
     width: 118px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .mask-group-FyAVc5 {
+        background-color: transparent;
+        height: 80px;
+        left: 50%;
+        margin-left: -40px;
+        position: absolute;
+        top: 70px;
+        width: 80px;
+        border: 3px solid blue;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .x1 .mask-group-FyAVc5 {
+        background-color: transparent;
+        height: 65px;
+        left: 50%;
+        margin-left: -32.5px;
+        position: absolute;
+        top: 85px;
+        width: 65px;
+        border: 3px solid blue;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .x1 .mask-group-FyAVc5 {
+        background-color: transparent;
+        height: 45px;
+        left: 50%;
+        margin-left: -22.5px;
+        position: absolute;
+        top: 107px;
+        width: 45px;
+        border: 3px solid blue;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .x1 .mask-group-FyAVc5 {
+        background-color: transparent;
+        height: 25px;
+        left: 50%;
+        margin-left: -12.5px;
+        position: absolute;
+        top: 122px;
+        width: 25px;
+        border: 3px solid blue;
+        border-radius: 50%;
+    }
+}
+
 .x1 .ellipse-1-FyAVc5 {
     background-color: transparent;
     border-radius: 67.45px;
@@ -4653,6 +5060,18 @@ input:focus {
     position: absolute;
     top: 0px;
     width: 135px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .ellipse-1-FyAVc5 {
+        background-color: transparent;
+        border-radius: 67.45px;
+        height: 0px;
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        width: 0px;
+    }
 }
 
 .x1 .group-7056-eV26Zv {
@@ -5534,8 +5953,6 @@ input:focus {
     position: absolute;
     top: 156px;
     width: 100%;
-    overflow-x: scroll;
-    /* width: 1621px; */
 }
 
 .x1 .rectangle-6-9IebmK {
@@ -5584,6 +6001,7 @@ input:focus {
     left: 0px;
     letter-spacing: 0px;
     line-height: 22px;
+    font-size: 14px;
     mix-blend-mode: normal;
     position: absolute;
     text-align: center;
@@ -5801,24 +6219,25 @@ input:focus {
 
 .x1 .union-o1E9UM {
     background-color: transparent;
-    height: 332px;
-    left: -112px;
+    height: 264px;
+    left: -11px;
     mix-blend-mode: normal;
     position: absolute;
-    top: -70px;
-    width: 449px;
+    top: -24px;
+    width: 255px;
 }
 
 .x1 .stage-ariel-o1E9UM {
     background-color: transparent;
     height: auto;
-    left: 50px;
+    left: 70px;
+    font-size: 18px;
     letter-spacing: 0px;
     line-height: 37.6px;
     mix-blend-mode: normal;
     position: absolute;
     text-align: center;
-    top: 30px;
+    top: 63px;
     white-space: nowrap;
     width: auto;
 }
@@ -5975,6 +6394,17 @@ input:focus {
     width: 158px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .path-9Pf4BC {
+        background-color: transparent;
+        height: 43px;
+        right: 20%;
+        position: absolute;
+        top: 94px;
+        width: 57px;
+    }
+}
+
 .x1 .helpingdoge-9Pf4BC {
     background-color: transparent;
     height: 550px;
@@ -5985,12 +6415,24 @@ input:focus {
     width: 650px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .helpingdoge-9Pf4BC {
+        background-color: transparent;
+        height: 240px;
+        left: 0px;
+        mix-blend-mode: normal;
+        position: absolute;
+        top: -40px;
+        width: 230px;
+    }
+}
+
 .x1 .r-h {
     margin-left: 0px;
     margin-right: 0px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
     .custom-height {
         height: 600px;
     }
@@ -6066,14 +6508,14 @@ input:focus {
     width: 430px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .x1 .bg-ExWKuc {
         background-color: transparent;
-        height: 526px;
+        height: 339px;
         left: 5px;
         position: absolute;
         top: 60px;
-        width: 489px;
+        width: 276px;
     }
     .x1 .main-ExWKuc {
         background-color: transparent;
@@ -6109,23 +6551,57 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .community-drive-h-everyone-else-LgCSuk {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 20.3px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        position: absolute;
+        text-align: left;
+        top: 45px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .community-drive-h-everyone-else-LgCSuk {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 20.3px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        position: absolute;
+        text-align: left;
+        top: 45px;
+        width: auto;
+    }
+}
+
 .x1 .vector-LgCSuk {
     background-color: transparent;
     height: 4px;
     left: -2px;
     position: absolute;
-    top: 160px;
+    top: 168px;
     width: 170px;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 600px) {
     .x1 .vector-LgCSuk {
         background-color: transparent;
         height: 4px;
-        left: -2px;
+        left: -9px;
         position: absolute;
-        top: 190px;
-        width: 170px;
+        top: 176px;
+        width: 190px;
     }
 }
 
@@ -6152,6 +6628,40 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .community-driven-saxKap {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        font-size: 18px;
+        line-height: 10px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: left;
+        top: 6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .community-driven-saxKap {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        font-size: 14px;
+        line-height: 10px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: left;
+        top: 6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
 .x1 .frame-saxKap {
     background-color: transparent;
     height: 44px;
@@ -6173,6 +6683,18 @@ input:focus {
     width: 45px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .vector-kuXHh4 {
+        background-color: transparent;
+        height: 25px;
+        left: -0px;
+        mix-blend-mode: normal;
+        position: absolute;
+        top: -0px;
+        width: 25px;
+    }
+}
+
 .x1 .vector-ro3IyJ {
     background-color: transparent;
     height: 15px;
@@ -6180,6 +6702,17 @@ input:focus {
     position: absolute;
     top: 15px;
     width: 9px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .vector-ro3IyJ {
+        background-color: transparent;
+        height: 15px;
+        left: 8px;
+        position: absolute;
+        top: 5px;
+        width: 9px;
+    }
 }
 
 .x1 .group-7023-CQnB2k {
@@ -6203,6 +6736,40 @@ input:focus {
     text-align: left;
     top: 65px;
     width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .every-trade-con-ed-by-exchanges-jKDhUy {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        font-size: 14px;
+        line-height: 20.3px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        position: absolute;
+        text-align: left;
+        top: 65px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .every-trade-con-ed-by-exchanges-jKDhUy {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        font-size: 12px;
+        line-height: 20.3px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        position: absolute;
+        text-align: left;
+        top: 65px;
+        width: auto;
+    }
 }
 
 .x1 .vector-jKDhUy {
@@ -6247,6 +6814,40 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .automatic-lp-a4GbtO {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        font-size: 18px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: left;
+        top: 6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .automatic-lp-a4GbtO {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: 20px;
+        font-size: 14px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: left;
+        top: 6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
 .x1 .frame-a4GbtO {
     background-color: transparent;
     height: 44px;
@@ -6267,6 +6868,17 @@ input:focus {
     width: 45px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .vector-6kxH6A {
+        background-color: transparent;
+        height: 25px;
+        left: -0px;
+        position: absolute;
+        top: -0px;
+        width: 25px;
+    }
+}
+
 .x1 .vector-fZTtqU {
     background-color: transparent;
     height: 15px;
@@ -6274,6 +6886,17 @@ input:focus {
     position: absolute;
     top: 15px;
     width: 9px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .vector-fZTtqU {
+        background-color: transparent;
+        height: 15px;
+        left: 8px;
+        position: absolute;
+        top: 5px;
+        width: 9px;
+    }
 }
 
 .x1 .group-7024-CQnB2k {
@@ -6297,6 +6920,40 @@ input:focus {
     text-align: left;
     top: 65px;
     width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .holders-earn-pa-ow-indefinitely-4wZsIW {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: 20.3px;
+        font-size: 14px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        position: absolute;
+        text-align: left;
+        top: 65px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .holders-earn-pa-ow-indefinitely-4wZsIW {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        line-height: 20.3px;
+        font-size: 12px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        position: absolute;
+        text-align: left;
+        top: 65px;
+        width: auto;
+    }
 }
 
 .x1 .vector-4wZsIW {
@@ -6329,6 +6986,40 @@ input:focus {
     width: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .rfi-static-rewards-EczdCq {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        font-size: 18px;
+        line-height: 20px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: left;
+        top: 6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .x1 .rfi-static-rewards-EczdCq {
+        background-color: transparent;
+        height: auto;
+        left: 0px;
+        letter-spacing: 0px;
+        font-size: 14px;
+        line-height: 20px;
+        mix-blend-mode: normal;
+        position: absolute;
+        text-align: left;
+        top: 6px;
+        white-space: nowrap;
+        width: auto;
+    }
+}
+
 .x1 .frame-EczdCq {
     background-color: transparent;
     height: 44px;
@@ -6349,6 +7040,17 @@ input:focus {
     width: 45px;
 }
 
+@media only screen and (max-width: 900px) {
+    .x1 .vector-yzaDl7 {
+        background-color: transparent;
+        height: 25px;
+        left: -0px;
+        position: absolute;
+        top: -0px;
+        width: 25px;
+    }
+}
+
 .x1 .vector-d98xJN {
     background-color: transparent;
     height: 15px;
@@ -6356,6 +7058,17 @@ input:focus {
     position: absolute;
     top: 15px;
     width: 9px;
+}
+
+@media only screen and (max-width: 900px) {
+    .x1 .vector-d98xJN {
+        background-color: transparent;
+        height: 15px;
+        left: 8px;
+        position: absolute;
+        top: 5px;
+        width: 9px;
+    }
 }
 
 .x1 .group-7080-7aGJld {

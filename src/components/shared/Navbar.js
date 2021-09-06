@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav
       style={{ backgroundColor: "#050517" }}
-      class="navbar w-100 navbar-expand-lg navbar-dark"
+      class="navbar w-100 navbar-expand navbar-dark"
     >
       <a class="navbar-brand" href="#">
         <img
@@ -13,19 +13,7 @@ const Navbar = () => {
           src="../../images/logo.png"
         ></img>
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar ml-auto" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">
