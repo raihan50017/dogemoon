@@ -1701,7 +1701,7 @@ const Home3 = () => {
         </div>
         <div class="group-2-7aGJld"></div>
         <div className="page-container p-4">
-          <div className="row">
+          <div className="row pt-4">
             <div className="col-6">
               <div>
                 <h1 className="lg-text">
@@ -1713,7 +1713,9 @@ const Home3 = () => {
                   rewards to holders as well as auto-burn liquidity.
                 </p>
                 <div>
-                  <button className="my-btn">Buy Now</button>
+                  <button className="my-btn">Live chat</button>
+                  <button style={{backgroundColor:"transparent", marginLeft:"5px"}} className="my-btn">Buy Now</button>
+                  <button style={{backgroundColor:"transparent", marginLeft:"5px"}}  className="my-btn">Swap</button>
                 </div>
               </div>
             </div>
@@ -1725,8 +1727,9 @@ const Home3 = () => {
               ></img>
             </div>
           </div>
-          <div className="p-3"></div>
-          <div className="row">
+          <div className="p-5"></div>
+          <div className="p-2"></div>
+          <div className="row p-3 m-2 pt-5 community-driven-container">
             <div className="col-6">
               <div>
                 <div className="d-flex justify-content-between no-wrap">
@@ -1810,6 +1813,7 @@ const Home3 = () => {
               </div>
             </div>
           </div>
+          <div className="p-5"></div>
           <div className="p-3"></div>
           <div>
             <div
@@ -1819,7 +1823,7 @@ const Home3 = () => {
                   "linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(../../images/section-bg1.svg)",
               }}
             >
-              <div className="row">
+              <div style={{zIndex:"999"}} className="row">
                 <div className="col-4">
                   <div className="d-flex flex-column justify-content-center align-items-center">
                     <img
@@ -1856,9 +1860,10 @@ const Home3 = () => {
               </div>
             </div>
           </div>
+          <div className="p-5"></div>
           <div className="p-3"></div>
           <div>
-            <h1 className="text-center">Our Team</h1>
+            <h1 className="text-center p-4">Our Team</h1>
             <div className="col-3"></div>
             <div className="row p-3">
               <div className="col-3 p-2">
@@ -2016,6 +2021,7 @@ const Home3 = () => {
             </div>
           </div>
           <div className="p-3"></div>
+          <div className="p-5"></div>
           <div
             className="roadmap-section pb-5"
             style={{
@@ -2326,7 +2332,8 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          <div className="p-3"></div>
+          <div className="p-5"></div>
+          <div className="p-5"></div>
           <div>
             <div className="d-flex no-wrap justify-content-around">
               <img
@@ -2361,7 +2368,8 @@ const Home3 = () => {
               ></img>
             </div>
           </div>
-          <div className="p-3"></div>
+          <div className="p-5"></div>
+          <div className="p-5"></div>
           <div
             className="p-4"
             style={{

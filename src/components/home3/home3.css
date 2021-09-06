@@ -15,7 +15,7 @@
 }
 
 .page-container .my-btn {
-    padding: 14px 20px;
+    padding: 1vw 1.5vw;
     font-size: 1.5vw;
     border: 3px solid #99A5FF;
     border-radius: 10px;
@@ -31,6 +31,12 @@
 
 .page-container h2 {
     font-size: 2.5vw;
+}
+
+.page-container .community-driven-container{
+    background-color: #281248;
+    border-radius: 10px;
+    border: 2px solid #8e7ea52d;
 }
 
 .page-container .arrow-container {
@@ -62,7 +68,7 @@
 .page-container .token-section-container {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
     padding: 5vw 2vw;
 }
 
