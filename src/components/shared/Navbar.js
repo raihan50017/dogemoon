@@ -1,10 +1,10 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({color,bg}) => {
   return (
     <nav
-      style={{ backgroundColor: "#050517" }}
-      class="navbar w-100 navbar-expand navbar-dark"
+      style={{ backgroundColor: `${bg}`}}
+      class={`navbar w-100 navbar-expand navbar-${color}`}
     >
       <a class="navbar-brand" href="#">
         <img

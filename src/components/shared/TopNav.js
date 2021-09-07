@@ -1,9 +1,9 @@
 import React from "react";
 
-const TopNav = () => {
+const TopNav = ({bg}) => {
   return (
     <div
-      style={{ backgroundColor: "#0F2536" }}
+      style={{ backgroundColor: `${bg}` }}
       className="d-flex justify-content-end p-2"
     >
       <img
