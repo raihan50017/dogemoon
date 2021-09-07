@@ -1700,8 +1700,8 @@ const Home3 = () => {
           />
         </div>
         <div class="group-2-7aGJld"></div>
-        <div className="page-container p-4">
-          <div className="row pt-4">
+        <div style={{paddingTop:"4vw"}} className="page-container">
+          <div className="row p-4">
             <div className="col-6">
               <div>
                 <h1 className="lg-text">
@@ -1743,9 +1743,8 @@ const Home3 = () => {
               ></img>
             </div>
           </div>
-          <div style={{ padding: "3.5vw" }}></div>
-          <div className="p-2 d-lg-none"></div>
-          <div className="row p-3 m-2 pt-5 community-driven-container">
+          <div style={{ padding: "3vw" }}></div>
+          <div className="row p-4 pt-5 community-driven-container">
             <div className="col-6">
               <div>
                 <div className="d-flex justify-content-between no-wrap">
@@ -1882,9 +1881,9 @@ const Home3 = () => {
           </div>
           <div style={{ padding: "5vw" }}></div>
           <div>
-            <h1 className="text-center p-1">Our Team</h1>
+            <h1 className="text-center p-3">Our Team</h1>
             <div className="col-3"></div>
-            <div className="row p-3">
+            <div style={{paddingLeft:"5vw", paddingRight:"5vw"}} className="row">
               <div className="col-3 p-2">
                 <div
                   className="team-card d-flex align-items-center flex-column"
@@ -2040,7 +2039,7 @@ const Home3 = () => {
             </div>
           </div>
           <div style={{ padding: "6vw" }}></div>
-          <div
+          <div id="roadmap"
             className="roadmap-section pb-5"
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
@@ -2265,7 +2264,7 @@ const Home3 = () => {
               </div>
             </div>
             {/* majer sari */}
-            <div className="d-flex no-wrap justify-content-center align-items-center">
+            <div style={{padding:"2vw"}} className=" d-flex no-wrap justify-content-center align-items-center">
               <div style={{ width: "20%" }}>
                 <p
                   style={{ fontSize: "1.1vw", paddingTop: "40px" }}
@@ -2389,8 +2388,6 @@ const Home3 = () => {
           <div
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
-              marginLeft: "-25px",
-              marginRight: "-25px",
               paddingTop:"6vw",
               paddingLeft:"3vw",
               paddingRight:"3vw",
@@ -2467,7 +2464,7 @@ const Home3 = () => {
             </div>
             <div className="row">
               <div className="col-6">
-              <p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+              <p style={{ textAlign: "left", fontSize: "1.2vw" }}>
                 Copyright © 2021 Safemoon LLC. | All Rights Reserved
               </p>
               </div>

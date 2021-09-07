@@ -292,7 +292,7 @@ input:focus {
 
 .x1 {
     background-color: var(--black);
-    height: 4076px;
+    height: 4376px;
     mix-blend-mode: normal;
     overflow: hidden;
     overflow-x: hidden;
@@ -302,13 +302,13 @@ input:focus {
 
 @media only screen and (max-width: 700px) {
     .x1 {
-        height: 2945pxpx;
+        height: 3145pxpx;
     }
 }
 
 @media only screen and (max-width: 990px) {
     .x1 {
-        height: 3251px;
+        height: 3451px;
     }
 }
 

@@ -21,7 +21,7 @@ const Navbar = ({color,bg}) => {
             </a>
           </li>
           <li class="nav-item">
-            <a style={{fontSize:"1.3vw"}} class="nav-link" href="#">
+            <a  style={{fontSize:"1.3vw"}} class="nav-link" href="#">
               Roadmap
             </a>
           </li>

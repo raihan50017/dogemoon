@@ -1700,8 +1700,8 @@ const Home4 = () => {
           />
         </div>
         <div class="group-2-7aGJld"></div>
-        <div className="page-container p-4">
-          <div className="row pt-4">
+        <div style={{paddingTop:"4vw"}} className="page-container">
+          <div className="row p-4">
             <div className="col-6">
               <div>
                 <h1 style={{ color: "#050517" }} className="lg-text">
@@ -1745,14 +1745,13 @@ const Home4 = () => {
               ></img>
             </div>
           </div>
-          <div style={{ padding: "3.5vw" }}></div>
-          <div className="p-2 d-lg-none"></div>
+          <div style={{ padding: "3vw" }}></div>
           <div
             style={{
               background:
                 "linear-gradient(103.39deg, #FBF8FE 3.1%, #EFDCFF 104.43%)",
             }}
-            className="row p-3 m-2 pt-5 community-driven-container"
+            className="row p-4 pt-5 community-driven-container"
           >
             <div className="col-6">
               <div>
@@ -1908,11 +1907,11 @@ const Home4 = () => {
           </div>
           <div style={{ padding: "5vw" }}></div>
           <div>
-            <h1 style={{ color: "#050517" }} className="text-center p-1">
+            <h1 style={{ color: "#050517" }} className="text-center p-3">
               Our Team
             </h1>
             <div className="col-3"></div>
-            <div className="row p-3">
+            <div style={{paddingLeft:"5vw", paddingRight:"5vw"}} className="row">
               <div className="col-3 p-2">
                 <div
                   className="team-card d-flex align-items-center flex-column"
@@ -2069,6 +2068,7 @@ const Home4 = () => {
           </div>
           <div style={{ padding: "6vw" }}></div>
           <div
+          id="roadmap"
             className="roadmap-section pb-5"
             style={{
               background:
@@ -2175,7 +2175,7 @@ const Home4 = () => {
             </div>
             {/* majer sari */}
             <div className="d-flex no-wrap">
-              <div style={{ width: "20%" }}>
+              <div  style={{ width: "20%" }}>
                 <div style={{ width: "100%" }}>
                   <div
                     style={{
@@ -2195,6 +2195,7 @@ const Home4 = () => {
                         position: "absolute",
                         top: "-.25vw",
                         borderRadius: "50%",
+                        border: ".3vw solid #616BBC",
                       }}
                     ></p>
                   </div>
@@ -2220,6 +2221,7 @@ const Home4 = () => {
                         position: "absolute",
                         top: "-.25vw",
                         borderRadius: "50%",
+                        border: ".3vw solid #616BBC",
                       }}
                     ></p>
                   </div>
@@ -2245,6 +2247,7 @@ const Home4 = () => {
                         position: "absolute",
                         top: "-.25vw",
                         borderRadius: "50%",
+                        border: ".3vw solid #616BBC",
                       }}
                     ></p>
                   </div>
@@ -2270,6 +2273,7 @@ const Home4 = () => {
                         position: "absolute",
                         top: "-.25vw",
                         borderRadius: "50%",
+                        border: ".3vw solid #616BBC",
                       }}
                     ></p>
                   </div>
@@ -2295,6 +2299,7 @@ const Home4 = () => {
                         position: "absolute",
                         top: "-.25vw",
                         borderRadius: "50%",
+                        border: ".3vw solid #616BBC",
                       }}
                     ></p>
                   </div>
@@ -2302,7 +2307,7 @@ const Home4 = () => {
               </div>
             </div>
             {/* majer sari */}
-            <div className="d-flex no-wrap justify-content-center align-items-center">
+            <div style={{padding:"2vw"}} className="d-flex no-wrap justify-content-center align-items-center">
               <div style={{ width: "20%" }}>
                 <p
                   style={{
@@ -2438,8 +2443,6 @@ const Home4 = () => {
           <div
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
-              marginLeft: "-25px",
-              marginRight: "-25px",
               paddingTop: "6vw",
               paddingLeft: "3vw",
               paddingRight: "3vw",
@@ -2524,7 +2527,7 @@ const Home4 = () => {
             </div>
             <div className="row">
               <div className="col-6">
-                <p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                <p style={{ textAlign: "left", fontSize: "1.2vw" }}>
                   Copyright © 2021 Safemoon LLC. | All Rights Reserved
                 </p>
               </div>
