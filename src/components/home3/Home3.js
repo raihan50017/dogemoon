@@ -1714,8 +1714,24 @@ const Home3 = () => {
                 </p>
                 <div>
                   <button className="my-btn">Live chat</button>
-                  <button style={{backgroundColor:"transparent", marginLeft:"5px"}} className="my-btn">Buy Now</button>
-                  <button style={{backgroundColor:"transparent", marginLeft:"5px"}}  className="my-btn">Swap</button>
+                  <button
+                    style={{
+                      backgroundColor: "transparent",
+                      marginLeft: "5px",
+                    }}
+                    className="my-btn"
+                  >
+                    Buy Now
+                  </button>
+                  <button
+                    style={{
+                      backgroundColor: "transparent",
+                      marginLeft: "5px",
+                    }}
+                    className="my-btn"
+                  >
+                    Swap
+                  </button>
                 </div>
               </div>
             </div>
@@ -1727,8 +1743,8 @@ const Home3 = () => {
               ></img>
             </div>
           </div>
-          <div className="p-5"></div>
-          <div className="p-2"></div>
+          <div style={{ padding: "3.5vw" }}></div>
+          <div className="p-2 d-lg-none"></div>
           <div className="row p-3 m-2 pt-5 community-driven-container">
             <div className="col-6">
               <div>
@@ -1753,7 +1769,12 @@ const Home3 = () => {
                     Community driven & fair launch. The dev team burned all of
                     their tokens and participated with everyone else.
                   </p>
-                  <Line strokeWidth={0.5} percent={percent} />
+                  <Line
+                    strokeColor="white"
+                    trailColor="transparent"
+                    strokeWidth={0.5}
+                    percent={percent}
+                  />
                 </div>
               </div>
               <div className="pt-4">
@@ -1778,7 +1799,7 @@ const Home3 = () => {
                     Every trade contributes towards automatically generating
                     liquidity that goes into multiple pools used by exchanges
                   </p>
-                  <Line strokeWidth={0.5} percent={percent} />
+                  <Line strokeColor="white" strokeWidth={0.3} percent="0" />
                 </div>
               </div>
               <div className="pt-4">
@@ -1803,7 +1824,7 @@ const Home3 = () => {
                     Holders earn passive rewards through static reflection as
                     they watch their balance of SafeMoon grow indefinitely.
                   </p>
-                  <Line strokeWidth={0.5} percent={percent} />
+                  <Line strokeColor="white" strokeWidth={0.3} percent="0" />
                 </div>
               </div>
             </div>
@@ -1813,8 +1834,7 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          <div className="p-5"></div>
-          <div className="p-3"></div>
+          <div style={{ padding: "6vw" }}></div>
           <div>
             <div
               className="token-section-container"
@@ -1823,7 +1843,7 @@ const Home3 = () => {
                   "linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(../../images/section-bg1.svg)",
               }}
             >
-              <div style={{zIndex:"999"}} className="row">
+              <div style={{ zIndex: "999" }} className="row">
                 <div className="col-4">
                   <div className="d-flex flex-column justify-content-center align-items-center">
                     <img
@@ -1860,10 +1880,9 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          <div className="p-5"></div>
-          <div className="p-3"></div>
+          <div style={{ padding: "5vw" }}></div>
           <div>
-            <h1 className="text-center p-4">Our Team</h1>
+            <h1 className="text-center p-1">Our Team</h1>
             <div className="col-3"></div>
             <div className="row p-3">
               <div className="col-3 p-2">
@@ -2020,8 +2039,7 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          <div className="p-3"></div>
-          <div className="p-5"></div>
+          <div style={{ padding: "6vw" }}></div>
           <div
             className="roadmap-section pb-5"
             style={{
@@ -2332,8 +2350,7 @@ const Home3 = () => {
               </div>
             </div>
           </div>
-          <div className="p-5"></div>
-          <div className="p-5"></div>
+          <div style={{ padding: "6vw" }}></div>
           <div>
             <div className="d-flex no-wrap justify-content-around">
               <img
@@ -2368,29 +2385,37 @@ const Home3 = () => {
               ></img>
             </div>
           </div>
-          <div className="p-5"></div>
-          <div className="p-5"></div>
+          <div style={{ padding: "6vw" }}></div>
           <div
-            className="p-4"
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
+              marginLeft: "-25px",
+              marginRight: "-25px",
+              paddingTop:"6vw",
+              paddingLeft:"3vw",
+              paddingRight:"3vw",
+              paddingBottom:"3vw",
             }}
           >
             <div className="row">
-              <div className="col-3">
+              <div className="col-6">
                 <img
                   style={{ width: "5vw" }}
                   alt=""
                   src="../../images/logo.png"
                 ></img>
-                <p style={{ fontSize: "1.3vw" }} className="pt-3">
+                <p
+                  style={{ fontSize: "1.3vw", width: "80%", paddingTop: "1vw" }}
+                >
                   The SafeMoon Protocol is a community driven, fair launched
                   DeFi Token. Three simple functions occur during each trade:
                   Reflection, LP Acquisition, & Burn.
                 </p>
               </div>
-              <div className="col-3">
-                <h4 style={{ fontSize: "2vw" }}>Community</h4>
+              <div className="col-2">
+                <h4 style={{ fontSize: "2vw", marginBottom: ".6vw" }}>
+                  Community
+                </h4>
                 <p style={{ fontSize: "1.4vw", marginBottom: "0px" }}>
                   Discord
                 </p>
@@ -2399,8 +2424,10 @@ const Home3 = () => {
                   Telegram
                 </p>
               </div>
-              <div className="col-3">
-                <h4 style={{ fontSize: "2vw" }}>Social</h4>
+              <div className="col-2">
+                <h4 style={{ fontSize: "2vw", marginBottom: ".6vw" }}>
+                  Social
+                </h4>
                 <p style={{ fontSize: "1.4vw", marginBottom: "0px" }}>
                   Facebook
                 </p>
@@ -2414,8 +2441,10 @@ const Home3 = () => {
                   Linkedin
                 </p>
               </div>
-              <div className="col-3">
-                <h4 style={{ fontSize: "2vw" }}>Resources</h4>
+              <div className="col-2">
+                <h4 style={{ fontSize: "2vw", marginBottom: ".6vw" }}>
+                  Resources
+                </h4>
                 <p style={{ fontSize: "1.4vw", marginBottom: "0px" }}>
                   Branding
                 </p>
@@ -2434,10 +2463,23 @@ const Home3 = () => {
               </div>
             </div>
             <div>
-              <p style={{textAlign:"center", fontSize:"1.3vw"}}>Terms of Services || Privacy Policy || Support</p>
+              <hr style={{ height: "1px", backgroundColor: "white" ,marginTop:"3vw",marginBottom:"3vw"}}></hr>
             </div>
-            <div>
-              <p  style={{textAlign:"center", fontSize:"1vw"}}>Copyright © 2021 Safemoon LLC. | All Rights Reserved</p>
+            <div className="row">
+              <div className="col-6">
+              <p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                Copyright © 2021 Safemoon LLC. | All Rights Reserved
+              </p>
+              </div>
+              <div className="col-2"><p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                Terms of Services
+              </p></div>
+              <div className="col-2"><p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+               Privacy Policy 
+              </p></div>
+              <div className="col-2"><p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                Support
+              </p></div>
             </div>
           </div>
         </div>
