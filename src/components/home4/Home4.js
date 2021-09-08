@@ -5,6 +5,15 @@ import { Line } from "rc-progress";
 const Home4 = () => {
   const [percent, setPercent] = useState(0);
 
+  const [pageHeight, setPageHeight] = useState(0);
+
+  useEffect(() => {
+    const height =
+      document.getElementById("page").clientHeight +
+      document.getElementById("footer").clientHeight;
+    setPageHeight(height);
+  }, []);
+
   useEffect(() => {
     increase();
   }, []);
@@ -22,7 +31,10 @@ const Home4 = () => {
 
   return (
     <div class="container-center-horizontal">
-      <div style={{ backgroundColor: "#F7ECFF" }} class="x1 screen">
+      <div
+        style={{ backgroundColor: "#F7ECFF", height: `${pageHeight}px` }}
+        class="x1 screen"
+      >
         <img
           alt=""
           class="vector-7aGJld"
@@ -1699,8 +1711,7 @@ const Home4 = () => {
             src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMiIgaGVpZ2h0PSI1MzY3IiB2aWV3Qm94PSIwIDAgMiA1MzY3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMSAtMC4xMTc5MlY2MjQzLjg4IiBzdHJva2U9IiM5ODcxQjgiIHN0cm9rZS13aWR0aD0iMiIvPgo8L3N2Zz4K"
           />
         </div>
-        <div class="group-2-7aGJld"></div>
-        <div style={{paddingTop:"4vw"}} className="page-container">
+        <div id="page" style={{ paddingTop: "4vw" }} className="page-container">
           <div className="row p-4">
             <div className="col-6">
               <div>
@@ -1911,7 +1922,10 @@ const Home4 = () => {
               Our Team
             </h1>
             <div className="col-3"></div>
-            <div style={{paddingLeft:"5vw", paddingRight:"5vw"}} className="row">
+            <div
+              style={{ paddingLeft: "5vw", paddingRight: "5vw" }}
+              className="row"
+            >
               <div className="col-3 p-2">
                 <div
                   className="team-card d-flex align-items-center flex-column"
@@ -2068,7 +2082,7 @@ const Home4 = () => {
           </div>
           <div style={{ padding: "6vw" }}></div>
           <div
-          id="roadmap"
+            id="roadmap"
             className="roadmap-section pb-5"
             style={{
               background:
@@ -2175,7 +2189,7 @@ const Home4 = () => {
             </div>
             {/* majer sari */}
             <div className="d-flex no-wrap">
-              <div  style={{ width: "20%" }}>
+              <div style={{ width: "20%" }}>
                 <div style={{ width: "100%" }}>
                   <div
                     style={{
@@ -2307,7 +2321,10 @@ const Home4 = () => {
               </div>
             </div>
             {/* majer sari */}
-            <div style={{padding:"2vw"}} className="d-flex no-wrap justify-content-center align-items-center">
+            <div
+              style={{ padding: "2vw" }}
+              className="d-flex no-wrap justify-content-center align-items-center"
+            >
               <div style={{ width: "20%" }}>
                 <p
                   style={{
@@ -2441,6 +2458,7 @@ const Home4 = () => {
           </div>
           <div style={{ padding: "6vw" }}></div>
           <div
+            id="footer"
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
               paddingTop: "6vw",
@@ -2525,7 +2543,7 @@ const Home4 = () => {
                 }}
               ></hr>
             </div>
-            <div className="row">
+            <div style={{ paddingBottom: "3vw" }} className="row">
               <div className="col-6">
                 <p style={{ textAlign: "left", fontSize: "1.2vw" }}>
                   Copyright © 2021 Safemoon LLC. | All Rights Reserved

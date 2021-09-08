@@ -1,9 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./home3.css";
 import { Line } from "rc-progress";
 
 const Home3 = () => {
   const [percent, setPercent] = useState(0);
+  const [pageHeight, setPageHeight] = useState(0);
+
+  useEffect(() => {
+    const height =
+      document.getElementById("page").clientHeight +
+      document.getElementById("footer").clientHeight;
+    setPageHeight(height);
+  }, []);
 
   useEffect(() => {
     increase();
@@ -22,7 +30,7 @@ const Home3 = () => {
 
   return (
     <div class="container-center-horizontal">
-      <div class="x1 screen">
+      <div style={{ height: `${pageHeight}px` }} class="x1 screen">
         <img
           alt=""
           class="vector-7aGJld"
@@ -1699,8 +1707,7 @@ const Home3 = () => {
             src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMiIgaGVpZ2h0PSI1MzY3IiB2aWV3Qm94PSIwIDAgMiA1MzY3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMSAtMC4xMTc5MlY2MjQzLjg4IiBzdHJva2U9IiM5ODcxQjgiIHN0cm9rZS13aWR0aD0iMiIvPgo8L3N2Zz4K"
           />
         </div>
-        <div class="group-2-7aGJld"></div>
-        <div style={{paddingTop:"4vw"}} className="page-container">
+        <div id="page" style={{ paddingTop: "4vw" }} className="page-container">
           <div className="row p-4">
             <div className="col-6">
               <div>
@@ -1883,7 +1890,10 @@ const Home3 = () => {
           <div>
             <h1 className="text-center p-3">Our Team</h1>
             <div className="col-3"></div>
-            <div style={{paddingLeft:"5vw", paddingRight:"5vw"}} className="row">
+            <div
+              style={{ paddingLeft: "5vw", paddingRight: "5vw" }}
+              className="row"
+            >
               <div className="col-3 p-2">
                 <div
                   className="team-card d-flex align-items-center flex-column"
@@ -2039,7 +2049,8 @@ const Home3 = () => {
             </div>
           </div>
           <div style={{ padding: "6vw" }}></div>
-          <div id="roadmap"
+          <div
+            id="roadmap"
             className="roadmap-section pb-5"
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
@@ -2264,7 +2275,10 @@ const Home3 = () => {
               </div>
             </div>
             {/* majer sari */}
-            <div style={{padding:"2vw"}} className=" d-flex no-wrap justify-content-center align-items-center">
+            <div
+              style={{ padding: "2vw" }}
+              className=" d-flex no-wrap justify-content-center align-items-center"
+            >
               <div style={{ width: "20%" }}>
                 <p
                   style={{ fontSize: "1.1vw", paddingTop: "40px" }}
@@ -2386,12 +2400,13 @@ const Home3 = () => {
           </div>
           <div style={{ padding: "6vw" }}></div>
           <div
+            id="footer"
             style={{
               backgroundImage: "url(../../images/roadmap-section-bg.svg)",
-              paddingTop:"6vw",
-              paddingLeft:"3vw",
-              paddingRight:"3vw",
-              paddingBottom:"3vw",
+              paddingTop: "6vw",
+              paddingLeft: "3vw",
+              paddingRight: "3vw",
+              paddingBottom: "3vw",
             }}
           >
             <div className="row">
@@ -2460,25 +2475,39 @@ const Home3 = () => {
               </div>
             </div>
             <div>
-              <hr style={{ height: "1px", backgroundColor: "white" ,marginTop:"3vw",marginBottom:"3vw"}}></hr>
+              <hr
+                style={{
+                  height: "1px",
+                  backgroundColor: "white",
+                  marginTop: "3vw",
+                  marginBottom: "3vw",
+                }}
+              ></hr>
             </div>
-            <div className="row">
+            <div style={{ paddingBottom: "3vw" }} className="row">
               <div className="col-6">
-              <p style={{ textAlign: "left", fontSize: "1.2vw" }}>
-                Copyright © 2021 Safemoon LLC. | All Rights Reserved
-              </p>
+                <p style={{ textAlign: "left", fontSize: "1.2vw" }}>
+                  Copyright © 2021 Safemoon LLC. | All Rights Reserved
+                </p>
               </div>
-              <div className="col-2"><p style={{ textAlign: "center", fontSize: "1.2vw" }}>
-                Terms of Services
-              </p></div>
-              <div className="col-2"><p style={{ textAlign: "center", fontSize: "1.2vw" }}>
-               Privacy Policy 
-              </p></div>
-              <div className="col-2"><p style={{ textAlign: "center", fontSize: "1.2vw" }}>
-                Support
-              </p></div>
+              <div className="col-2">
+                <p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                  Terms of Services
+                </p>
+              </div>
+              <div className="col-2">
+                <p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                  Privacy Policy
+                </p>
+              </div>
+              <div className="col-2">
+                <p style={{ textAlign: "center", fontSize: "1.2vw" }}>
+                  Support
+                </p>
+              </div>
             </div>
           </div>
+          <div id="rest-page" className="rest-of-page"></div>
         </div>
       </div>
     </div>

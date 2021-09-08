@@ -291,24 +291,24 @@ input:focus {
 /* screen - x1 */
 
 .x1 {
-    background-color: var(--black);
-    height: 4376px;
-    mix-blend-mode: normal;
+    /* background-color: var(--black); */
+    /* height: 4376px; */
+    /* mix-blend-mode: normal;
     overflow: hidden;
     overflow-x: hidden;
     position: relative;
-    width: 100%;
+    width: 100%; */
 }
 
 @media only screen and (max-width: 700px) {
     .x1 {
-        height: 3145pxpx;
+        /* height: 3145pxpx; */
     }
 }
 
 @media only screen and (max-width: 990px) {
     .x1 {
-        height: 3451px;
+        /* height: 3451px; */
     }
 }
 
@@ -346,7 +346,7 @@ input:focus {
     transform: rotate(-180deg);
     width: 3823px;
 }
-
+/* rrrrrrrrrrrrrrrrrrrr */
 .x1 .dipper-9Rhtev {
     background-color: transparent;
     height: 2020px;
